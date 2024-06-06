@@ -169,7 +169,7 @@ tourism_with_id.Price.describe()
 ###
 # c. To better understand the tourism ecosystem, we need to create a combined data with places and their ratings.
 ###
-```
+``` python
 
 tourism_rating.head(2)
 tourism_with_id.head(2)
@@ -177,7 +177,7 @@ tourism_with_id.head(2)
 ###
 # Calculate weighted average ratings for each place
 ###
-```
+```python 
 
 # Calculate the weighted average of the 'Place_Ratings' column for each place/location.
 weighted_avg = tourism_rating.groupby('Place_Id')['Place_Ratings'].mean().round(2).reset_index(name='Place_Ratings')
