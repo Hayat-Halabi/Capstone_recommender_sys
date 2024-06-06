@@ -23,11 +23,10 @@ tourism_with_id.columns = tourism_with_id.columns.str.strip()
 #This is a string method that removes any leading and trailing whitespace from each column name.
 ```
 ###
-2. To understand the tourism highlights better, we should explore the data in depth.
+# 2. To understand the tourism highlights better, we should explore the data in depth.
 ###
-#
-a. Explore the user groups used to get the tourism ratings.
-#
+# a. Explore the user groups used to get the tourism ratings.
+
 The age distribution of users visiting the places and giving the ratings.
 ```python
 #Create a bar plot and box plot to visualize the age distribution of the tourists visiting Indonesia.
@@ -72,7 +71,7 @@ plt.tight_layout()
 plt.show()
 ```
 ###
-b. Next, explore the locations and categories of tourist spots.
+# b. Next, explore the locations and categories of tourist spots.
 ###
 What are the different categories of tourist spots?
 Answer: There seems to be 6 different categories of tourist spots:
@@ -168,7 +167,7 @@ plt.show()
 tourism_with_id.Price.describe()
 ```
 ###
-c. To better understand the tourism ecosystem, we need to create a combined data with places and their ratings.
+# c. To better understand the tourism ecosystem, we need to create a combined data with places and their ratings.
 ###
 ```
 
@@ -176,7 +175,7 @@ tourism_rating.head(2)
 tourism_with_id.head(2)
 ```
 ###
-Calculate weighted average ratings for each place
+# Calculate weighted average ratings for each place
 ###
 ```
 
@@ -391,7 +390,7 @@ Ciputra Waterpark and Pelabuhan Marina have the same average rating of 2.042, ra
 
 Kawasan Malioboro has the lowest average rating of 2.017 and is rated by users 86 and 124.
 ###
-Key Observations:
+# Key Observations:
 ###
 Ratings Consistency: Some places have identical ratings and user counts, indicating the same user rated multiple places with the same score. For example, Masjid Nasional Al-Akbar and Tektona Waterpark both have ratings from user 136.
 
@@ -401,7 +400,7 @@ Diverse Ratings: Some places like Kawasan Malioboro have ratings from multiple u
 
 Top-rated Places: The highest average rating is 2.418, shared by two places, suggesting a tie for the most favored location among the users.
 ###
-Insights from graphs
+# Insights from graphs
 ###
 Indonesia offers a diverse range of tourist spots, but the popularity varies greatly among different categories. While amusement parks and nature preserves are well-liked, efforts could be made to enhance the appeal of less popular categories to attract a wider audience.
 
