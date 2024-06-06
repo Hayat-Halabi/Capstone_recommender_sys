@@ -416,8 +416,7 @@ Amusement Parks are the Most Liked: Amusement parks are the most liked category,
 Nature Preserves are also Highly Favored: Nature preserves come second, there is strong interest in natural attractions, indicating that tourists appreciate the beauty and experience offered by nature preserves.
 Cultural Attractions Hold Significant Interest: The culture category has 6 places with ratings above 3.5, While not as high as amusement parks and nature preserves, cultural attractions still attract a significant number of tourists, reflecting an interest in historical and cultural beauty.
 Low Interest in the Sea and Places of Worship: The sea and places of worship each have only 1 place with an average rating above 3.5. This indicates that these categories are less favored by tourists, possibly due to limited options or lower overall appeal.
-The bargraphs ploted above shows that tourists prefer engaging and interactive experiences like amusement parks and nature preserves over more passive or niche experiences like visiting the sea or places of worship.
-```
+The bargraphs ploted above shows that tourists prefer engaging and interactive experiences like amusement parks and nature preserves over more passive or niche experiences like visiting the sea or places of worship
 ```
 # Link to access data used above:
 ```
