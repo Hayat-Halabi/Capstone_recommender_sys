@@ -11,9 +11,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-tourism_with_id = pd.read_excel('tourism_with_id.xlsx')
-tourism_rating = pd.read_csv('tourism_rating.csv')
-user = pd.read_csv('user.csv')
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+#tourism_with_id = pd.read_excel('tourism_with_id.xlsx')
+tourism_with_id = pd.read_excel('/content/drive/MyDrive/Colab Notebooks/tourism_with_id.xlsx')
+
+#tourism_rating = pd.read_csv('tourism_rating.csv')
+tourism_rating = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/tourism_rating.csv')
+
+#user = pd.read_csv('user.csv')
+user = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/user.csv')
+
 user.head(2)
 tourism_rating.head(2)
 tourism_with_id.info()
