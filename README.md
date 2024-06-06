@@ -29,7 +29,7 @@ age_bins = pd.cut(user['Age'], bins=[17.978, 22.4, 26.8, 31.2, 35.6, 40.0])
 
 age_counts = age_bins.value_counts().sort_index()
 
-# categories = ['17.978,22.4', '22.4,26.8', '31.2,35.6', '35.6,40.0']
+#categories = ['17.978,22.4', '22.4,26.8', '31.2,35.6', '35.6,40.0']
 bar_width = 0.5
 
 ax1.bar(age_counts.index.astype(str), age_counts.values, color='green',  width=bar_width)
