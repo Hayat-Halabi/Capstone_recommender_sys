@@ -1,5 +1,11 @@
 # Capstone_recommender_sys
 
+Problem Statement:
+Indonesia wants to boost its tourism industry using advanced machine-learning techniques. You’re tasked with using the tourism data collected by the Indonesian government to understand tourist preferences and build a recommender system to recommend places to tourists.
+
+Overview:
+For effective marketing, it is of utmost importance to understand the customers(tourists) and their expectations. The recommender system is a great technique to augment the existing marketing outreach to prospects. This project requires you to perform exploratory data analysis and create a recommender system.
+
 ``` python
 import pandas as pd
 import matplotlib.pyplot as plt
